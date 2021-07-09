@@ -49,6 +49,7 @@
 		B9D3C6862697CDB800EAAE37 /* MacReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D3C68A2697CDB800EAAE37 /* MacReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacReaderUITests.swift; sourceTree = "<group>"; };
 		B9D3C68C2697CDB800EAAE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B9D3C6982697CDE200EAAE37 /* MacReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacReader.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +100,7 @@
 		B9D3C6672697CDB100EAAE37 /* MacReader */ = {
 			isa = PBXGroup;
 			children = (
+				B9D3C6982697CDE200EAAE37 /* MacReader.entitlements */,
 				B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */,
 				B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */,
 				B9D3C66C2697CDB100EAAE37 /* ContentView.swift */,
@@ -436,6 +438,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacReader/MacReader.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MacReader/Preview Content\"";
 				DEVELOPMENT_TEAM = X7VAV4CD49;
@@ -447,8 +450,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "2,6";
 			};
 			name = Debug;
 		};
@@ -457,6 +461,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MacReader/MacReader.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"MacReader/Preview Content\"";
 				DEVELOPMENT_TEAM = X7VAV4CD49;
@@ -468,8 +473,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = "2,6";
 			};
 			name = Release;
 		};
