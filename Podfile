@@ -2,7 +2,6 @@
 # platform :ios, '9.0'
 
 target 'MacReader' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
   pod "AlamofireRSSParser"
 
@@ -20,9 +19,6 @@ target 'MacReader' do
 end
 
 target 'MacReaderDebug' do
-  # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
-  # Pods for MacReaderDebug
-
+  pod "AlamofireRSSParser"
 end
