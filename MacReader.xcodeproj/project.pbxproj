@@ -3,10 +3,12 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B93419A7269BCA9500B027EE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B93419A6269BCA9500B027EE /* Alamofire */; };
+		B93419AA269BCAB400B027EE /* AlamofireRSSParser in Frameworks */ = {isa = PBXBuildFile; productRef = B93419A9269BCAB400B027EE /* AlamofireRSSParser */; };
 		B95DAF842697D6F300AE4E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */; };
 		B95DAF852697D6F300AE4E7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */; };
 		B95DAF862697D6F300AE4E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66C2697CDB100EAAE37 /* ContentView.swift */; };
@@ -71,6 +73,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93419A7269BCA9500B027EE /* Alamofire in Frameworks */,
+				B93419AA269BCAB400B027EE /* AlamofireRSSParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -186,6 +190,10 @@
 			dependencies = (
 			);
 			name = MacReader;
+			packageProductDependencies = (
+				B93419A6269BCA9500B027EE /* Alamofire */,
+				B93419A9269BCAB400B027EE /* AlamofireRSSParser */,
+			);
 			productName = MacReader;
 			productReference = B9D3C6652697CDB100EAAE37 /* MacReader.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +265,10 @@
 				Base,
 			);
 			mainGroup = B9D3C65C2697CDB100EAAE37;
+			packageReferences = (
+				B93419A5269BCA9500B027EE /* XCRemoteSwiftPackageReference "Alamofire" */,
+				B93419A8269BCAB400B027EE /* XCRemoteSwiftPackageReference "AlamofireRSSParser" */,
+			);
 			productRefGroup = B9D3C6662697CDB100EAAE37 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -711,6 +723,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		B93419A5269BCA9500B027EE /* XCRemoteSwiftPackageReference "Alamofire" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Alamofire/Alamofire.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.4.3;
+			};
+		};
+		B93419A8269BCAB400B027EE /* XCRemoteSwiftPackageReference "AlamofireRSSParser" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/StanislauRubasheuski/AlamofireRSSParser.git";
+			requirement = {
+				branch = spm_dependency;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B93419A6269BCA9500B027EE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B93419A5269BCA9500B027EE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B93419A9269BCAB400B027EE /* AlamofireRSSParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B93419A8269BCAB400B027EE /* XCRemoteSwiftPackageReference "AlamofireRSSParser" */;
+			productName = AlamofireRSSParser;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = B9D3C65D2697CDB100EAAE37 /* Project object */;
 }
