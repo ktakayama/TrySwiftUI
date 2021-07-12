@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		B93419A7269BCA9500B027EE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B93419A6269BCA9500B027EE /* Alamofire */; };
 		B93419AA269BCAB400B027EE /* AlamofireRSSParser in Frameworks */ = {isa = PBXBuildFile; productRef = B93419A9269BCAB400B027EE /* AlamofireRSSParser */; };
+		B93419AD269BCC0700B027EE /* Alamofire in Frameworks */ = {isa = PBXBuildFile; productRef = B93419AC269BCC0700B027EE /* Alamofire */; };
+		B93419AF269BCC0A00B027EE /* AlamofireRSSParser in Frameworks */ = {isa = PBXBuildFile; productRef = B93419AE269BCC0A00B027EE /* AlamofireRSSParser */; };
 		B95DAF842697D6F300AE4E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */; };
 		B95DAF852697D6F300AE4E7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */; };
 		B95DAF862697D6F300AE4E7E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66C2697CDB100EAAE37 /* ContentView.swift */; };
@@ -66,6 +68,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B93419AD269BCC0700B027EE /* Alamofire in Frameworks */,
+				B93419AF269BCC0A00B027EE /* AlamofireRSSParser in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -95,6 +99,13 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B93419AB269BCC0700B027EE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		B9D3C65C2697CDB100EAAE37 = {
 			isa = PBXGroup;
 			children = (
@@ -102,6 +113,7 @@
 				B9D3C67E2697CDB800EAAE37 /* MacReaderTests */,
 				B9D3C6892697CDB800EAAE37 /* MacReaderUITests */,
 				B9D3C6662697CDB100EAAE37 /* Products */,
+				B93419AB269BCC0700B027EE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -173,6 +185,10 @@
 			dependencies = (
 			);
 			name = MacReaderDebug;
+			packageProductDependencies = (
+				B93419AC269BCC0700B027EE /* Alamofire */,
+				B93419AE269BCC0A00B027EE /* AlamofireRSSParser */,
+			);
 			productName = MacReader;
 			productReference = B95DAF8F2697D6F300AE4E7E /* MacReaderDebug.app */;
 			productType = "com.apple.product-type.application";
@@ -750,6 +766,16 @@
 			productName = Alamofire;
 		};
 		B93419A9269BCAB400B027EE /* AlamofireRSSParser */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B93419A8269BCAB400B027EE /* XCRemoteSwiftPackageReference "AlamofireRSSParser" */;
+			productName = AlamofireRSSParser;
+		};
+		B93419AC269BCC0700B027EE /* Alamofire */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = B93419A5269BCA9500B027EE /* XCRemoteSwiftPackageReference "Alamofire" */;
+			productName = Alamofire;
+		};
+		B93419AE269BCC0A00B027EE /* AlamofireRSSParser */ = {
 			isa = XCSwiftPackageProductDependency;
 			package = B93419A8269BCAB400B027EE /* XCRemoteSwiftPackageReference "AlamofireRSSParser" */;
 			productName = AlamofireRSSParser;
