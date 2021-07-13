@@ -18,6 +18,8 @@
 		B9C1BAD6269D331A00CEE0F2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C1BAD4269D331900CEE0F2 /* WebView.swift */; };
 		B9C1BAD8269D5B9A00CEE0F2 /* FeedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C1BAD7269D5B9A00CEE0F2 /* FeedListViewModel.swift */; };
 		B9C1BAD9269D5B9A00CEE0F2 /* FeedListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C1BAD7269D5B9A00CEE0F2 /* FeedListViewModel.swift */; };
+		B9C1BADB269D5DC800CEE0F2 /* FeedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C1BADA269D5DC800CEE0F2 /* FeedDetailView.swift */; };
+		B9C1BADC269D5DC800CEE0F2 /* FeedDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9C1BADA269D5DC800CEE0F2 /* FeedDetailView.swift */; };
 		B9D3C6692697CDB100EAAE37 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */; };
 		B9D3C66B2697CDB100EAAE37 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */; };
 		B9D3C66D2697CDB100EAAE37 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66C2697CDB100EAAE37 /* ContentView.swift */; };
@@ -61,6 +63,7 @@
 		B95DAF8F2697D6F300AE4E7E /* MacReaderDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacReaderDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C1BAD4269D331900CEE0F2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		B9C1BAD7269D5B9A00CEE0F2 /* FeedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewModel.swift; sourceTree = "<group>"; };
+		B9C1BADA269D5DC800CEE0F2 /* FeedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDetailView.swift; sourceTree = "<group>"; };
 		B9D3C6652697CDB100EAAE37 /* MacReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -173,6 +176,7 @@
 				B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */,
 				B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */,
 				B9C1BAD7269D5B9A00CEE0F2 /* FeedListViewModel.swift */,
+				B9C1BADA269D5DC800CEE0F2 /* FeedDetailView.swift */,
 				B9D3C66C2697CDB100EAAE37 /* ContentView.swift */,
 				B9C1BAD4269D331900CEE0F2 /* WebView.swift */,
 				B9D3C66E2697CDB800EAAE37 /* Assets.xcassets */,
@@ -521,6 +525,7 @@
 				B9C1BAD6269D331A00CEE0F2 /* WebView.swift in Sources */,
 				B95DAF852697D6F300AE4E7E /* SceneDelegate.swift in Sources */,
 				B95DAF862697D6F300AE4E7E /* ContentView.swift in Sources */,
+				B9C1BADC269D5DC800CEE0F2 /* FeedDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -533,6 +538,7 @@
 				B9C1BAD5269D331A00CEE0F2 /* WebView.swift in Sources */,
 				B9D3C66B2697CDB100EAAE37 /* SceneDelegate.swift in Sources */,
 				B9D3C66D2697CDB100EAAE37 /* ContentView.swift in Sources */,
+				B9C1BADB269D5DC800CEE0F2 /* FeedDetailView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
