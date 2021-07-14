@@ -10,7 +10,7 @@ import SwiftUI
 
 struct widgetView_Previews: PreviewProvider {
     static var previews: some View {
-        let items = [
+        let items:[WidgetEntryItem] = [
             WidgetEntryItem(title: "すごい安いディスプレイがやばすぎて祭りに"),
             WidgetEntryItem(title: "すごい安いディスプレイがやばすぎて祭りに"),
             WidgetEntryItem(title: "Linus が")
