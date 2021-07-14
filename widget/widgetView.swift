@@ -12,8 +12,8 @@ struct widgetView_Previews: PreviewProvider {
     static var previews: some View {
         let items:[WidgetEntryItem] = [
             WidgetEntryItem(title: "すごい安いディスプレイがやばすぎて祭りに"),
-            WidgetEntryItem(title: "すごい安いディスプレイがやばすぎて祭りに"),
-            WidgetEntryItem(title: "Linus が")
+            WidgetEntryItem(title: "牛舎から豚が逃げ出して大騒ぎになった顛末"),
+            WidgetEntryItem(title: "Yoica リリース記念")
         ]
         widgetView(entry: WidgetEntry(items: items))
             .previewContext(WidgetPreviewContext(family: .systemMedium))
