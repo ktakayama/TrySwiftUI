@@ -13,6 +13,7 @@
 		B92BA03E269EDE3C005B5F2E /* widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92BA03D269EDE3C005B5F2E /* widget.swift */; };
 		B92BA040269EDE43005B5F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92BA03F269EDE43005B5F2E /* Assets.xcassets */; };
 		B92BA044269EDE43005B5F2E /* widgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B92BA037269EDE3C005B5F2E /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B92BA04B269EDEF2005B5F2E /* widgetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92BA04A269EDEF2005B5F2E /* widgetView.swift */; };
 		B95DAF842697D6F300AE4E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */; };
 		B95DAF852697D6F300AE4E7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */; };
 		B95DAF862697D6F300AE4E7E /* FeedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66C2697CDB100EAAE37 /* FeedListView.swift */; };
@@ -93,6 +94,7 @@
 		B92BA03F269EDE43005B5F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B92BA041269EDE43005B5F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B92BA045269EDE44005B5F2E /* widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetExtension.entitlements; sourceTree = "<group>"; };
+		B92BA04A269EDEF2005B5F2E /* widgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetView.swift; sourceTree = "<group>"; };
 		B95DAF8F2697D6F300AE4E7E /* MacReaderDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacReaderDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C1BAD4269D331900CEE0F2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		B9C1BAD7269D5B9A00CEE0F2 /* FeedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewModel.swift; sourceTree = "<group>"; };
@@ -181,6 +183,7 @@
 			isa = PBXGroup;
 			children = (
 				B92BA03D269EDE3C005B5F2E /* widget.swift */,
+				B92BA04A269EDEF2005B5F2E /* widgetView.swift */,
 				B92BA03F269EDE43005B5F2E /* Assets.xcassets */,
 				B92BA041269EDE43005B5F2E /* Info.plist */,
 			);
@@ -608,6 +611,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B92BA04B269EDEF2005B5F2E /* widgetView.swift in Sources */,
 				B92BA03E269EDE3C005B5F2E /* widget.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
