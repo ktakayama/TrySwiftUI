@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		19E1E8F9753D621BF8624F53 /* Pods_MacReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE771424CCBC3F6B948AFA9B /* Pods_MacReader.framework */; };
+		B92BA039269EDE3C005B5F2E /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92BA038269EDE3C005B5F2E /* WidgetKit.framework */; };
+		B92BA03B269EDE3C005B5F2E /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B92BA03A269EDE3C005B5F2E /* SwiftUI.framework */; };
+		B92BA03E269EDE3C005B5F2E /* widget.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92BA03D269EDE3C005B5F2E /* widget.swift */; };
+		B92BA040269EDE43005B5F2E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B92BA03F269EDE43005B5F2E /* Assets.xcassets */; };
+		B92BA044269EDE43005B5F2E /* widgetExtension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = B92BA037269EDE3C005B5F2E /* widgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		B95DAF842697D6F300AE4E7E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */; };
 		B95DAF852697D6F300AE4E7E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */; };
 		B95DAF862697D6F300AE4E7E /* FeedListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C66C2697CDB100EAAE37 /* FeedListView.swift */; };
@@ -34,6 +39,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		B92BA042269EDE43005B5F2E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B9D3C65D2697CDB100EAAE37 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B92BA036269EDE3C005B5F2E;
+			remoteInfo = widgetExtension;
+		};
 		B9D3C67C2697CDB800EAAE37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9D3C65D2697CDB100EAAE37 /* Project object */;
@@ -50,6 +62,20 @@
 		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		B92BA046269EDE44005B5F2E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B92BA044269EDE43005B5F2E /* widgetExtension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		194AFA244C119E6457F40E25 /* Pods-MacReaderDebug.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacReaderDebug.debug.xcconfig"; path = "Target Support Files/Pods-MacReaderDebug/Pods-MacReaderDebug.debug.xcconfig"; sourceTree = "<group>"; };
 		1FF49C52391EF784EB5386A2 /* Pods_MacReaderDebug.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacReaderDebug.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -60,6 +86,13 @@
 		7B5FB611BC12A90FD05E0227 /* Pods_MacReader_MacReaderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MacReader_MacReaderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A406E153FD45F76C631CB2C9 /* Pods-MacReaderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacReaderTests.release.xcconfig"; path = "Target Support Files/Pods-MacReaderTests/Pods-MacReaderTests.release.xcconfig"; sourceTree = "<group>"; };
 		ABAC961B253134AEE8974926 /* Pods-MacReaderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MacReaderTests.debug.xcconfig"; path = "Target Support Files/Pods-MacReaderTests/Pods-MacReaderTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B92BA037269EDE3C005B5F2E /* widgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = widgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B92BA038269EDE3C005B5F2E /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B92BA03A269EDE3C005B5F2E /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B92BA03D269EDE3C005B5F2E /* widget.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widget.swift; sourceTree = "<group>"; };
+		B92BA03F269EDE43005B5F2E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B92BA041269EDE43005B5F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B92BA045269EDE44005B5F2E /* widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetExtension.entitlements; sourceTree = "<group>"; };
 		B95DAF8F2697D6F300AE4E7E /* MacReaderDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacReaderDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C1BAD4269D331900CEE0F2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		B9C1BAD7269D5B9A00CEE0F2 /* FeedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewModel.swift; sourceTree = "<group>"; };
@@ -85,6 +118,15 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		B92BA034269EDE3C005B5F2E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92BA03B269EDE3C005B5F2E /* SwiftUI.framework in Frameworks */,
+				B92BA039269EDE3C005B5F2E /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B95DAF872697D6F300AE4E7E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -135,6 +177,16 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		B92BA03C269EDE3C005B5F2E /* widget */ = {
+			isa = PBXGroup;
+			children = (
+				B92BA03D269EDE3C005B5F2E /* widget.swift */,
+				B92BA03F269EDE43005B5F2E /* Assets.xcassets */,
+				B92BA041269EDE43005B5F2E /* Info.plist */,
+			);
+			path = widget;
+			sourceTree = "<group>";
+		};
 		B93419AB269BCC0700B027EE /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +194,8 @@
 				7B5FB611BC12A90FD05E0227 /* Pods_MacReader_MacReaderUITests.framework */,
 				1FF49C52391EF784EB5386A2 /* Pods_MacReaderDebug.framework */,
 				26748A79F54C8CF9DA5434B7 /* Pods_MacReaderTests.framework */,
+				B92BA038269EDE3C005B5F2E /* WidgetKit.framework */,
+				B92BA03A269EDE3C005B5F2E /* SwiftUI.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,9 +203,11 @@
 		B9D3C65C2697CDB100EAAE37 = {
 			isa = PBXGroup;
 			children = (
+				B92BA045269EDE44005B5F2E /* widgetExtension.entitlements */,
 				B9D3C6672697CDB100EAAE37 /* MacReader */,
 				B9D3C67E2697CDB800EAAE37 /* MacReaderTests */,
 				B9D3C6892697CDB800EAAE37 /* MacReaderUITests */,
+				B92BA03C269EDE3C005B5F2E /* widget */,
 				B9D3C6662697CDB100EAAE37 /* Products */,
 				B93419AB269BCC0700B027EE /* Frameworks */,
 				2159EAE0EE3C3DBD1E785185 /* Pods */,
@@ -165,6 +221,7 @@
 				B9D3C67B2697CDB800EAAE37 /* MacReaderTests.xctest */,
 				B9D3C6862697CDB800EAAE37 /* MacReaderUITests.xctest */,
 				B95DAF8F2697D6F300AE4E7E /* MacReaderDebug.app */,
+				B92BA037269EDE3C005B5F2E /* widgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -216,6 +273,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		B92BA036269EDE3C005B5F2E /* widgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B92BA049269EDE44005B5F2E /* Build configuration list for PBXNativeTarget "widgetExtension" */;
+			buildPhases = (
+				B92BA033269EDE3C005B5F2E /* Sources */,
+				B92BA034269EDE3C005B5F2E /* Frameworks */,
+				B92BA035269EDE3C005B5F2E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = widgetExtension;
+			productName = widgetExtension;
+			productReference = B92BA037269EDE3C005B5F2E /* widgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		B95DAF822697D6F300AE4E7E /* MacReaderDebug */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B95DAF8C2697D6F300AE4E7E /* Build configuration list for PBXNativeTarget "MacReaderDebug" */;
@@ -244,10 +318,12 @@
 				B9D3C6622697CDB100EAAE37 /* Frameworks */,
 				B9D3C6632697CDB100EAAE37 /* Resources */,
 				F3EC5D4188403E6C158722B9 /* [CP] Embed Pods Frameworks */,
+				B92BA046269EDE44005B5F2E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				B92BA043269EDE43005B5F2E /* PBXTargetDependency */,
 			);
 			name = MacReader;
 			productName = MacReader;
@@ -299,9 +375,12 @@
 		B9D3C65D2697CDB100EAAE37 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1250;
+				LastSwiftUpdateCheck = 1300;
 				LastUpgradeCheck = 1250;
 				TargetAttributes = {
+					B92BA036269EDE3C005B5F2E = {
+						CreatedOnToolsVersion = 13.0;
+					};
 					B9D3C6642697CDB100EAAE37 = {
 						CreatedOnToolsVersion = 12.5.1;
 					};
@@ -332,11 +411,20 @@
 				B95DAF822697D6F300AE4E7E /* MacReaderDebug */,
 				B9D3C67A2697CDB800EAAE37 /* MacReaderTests */,
 				B9D3C6852697CDB800EAAE37 /* MacReaderUITests */,
+				B92BA036269EDE3C005B5F2E /* widgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		B92BA035269EDE3C005B5F2E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92BA040269EDE43005B5F2E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B95DAF882697D6F300AE4E7E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -516,6 +604,14 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		B92BA033269EDE3C005B5F2E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B92BA03E269EDE3C005B5F2E /* widget.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		B95DAF832697D6F300AE4E7E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -561,6 +657,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		B92BA043269EDE43005B5F2E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B92BA036269EDE3C005B5F2E /* widgetExtension */;
+			targetProxy = B92BA042269EDE43005B5F2E /* PBXContainerItemProxy */;
+		};
 		B9D3C67D2697CDB800EAAE37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = B9D3C6642697CDB100EAAE37 /* MacReader */;
@@ -585,6 +686,66 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		B92BA047269EDE44005B5F2E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7VAV4CD49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReader.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B92BA048269EDE44005B5F2E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = widgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = X7VAV4CD49;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = widget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = widget;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReader.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SUPPORTS_MACCATALYST = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		B95DAF8D2697D6F300AE4E7E /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 194AFA244C119E6457F40E25 /* Pods-MacReaderDebug.debug.xcconfig */;
@@ -753,6 +914,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = BB8A239D885638AF51DE5EB0 /* Pods-MacReader.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacReader/MacReader.entitlements;
@@ -777,6 +939,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 6848AEC611284185E8A5B28D /* Pods-MacReader.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = MacReader/MacReader.entitlements;
@@ -888,6 +1051,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		B92BA049269EDE44005B5F2E /* Build configuration list for PBXNativeTarget "widgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B92BA047269EDE44005B5F2E /* Debug */,
+				B92BA048269EDE44005B5F2E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		B95DAF8C2697D6F300AE4E7E /* Build configuration list for PBXNativeTarget "MacReaderDebug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
