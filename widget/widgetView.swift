@@ -26,8 +26,12 @@ struct widgetView: View {
     var body: some View {
         HStack {
             VStack {
-                ForEach(entry.items) { item in
-                    widgetItemView(item: item)
+                if entry.items.count > 0 {
+                    ForEach(entry.items) { item in
+                        widgetItemView(item: item)
+                    }
+                } else {
+                    Text("なんもねぇ…")
                 }
             }
             Spacer()
