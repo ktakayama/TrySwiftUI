@@ -8,8 +8,6 @@
 import SwiftUI
 
 struct ContentView: View {
-    var title: String
-    var url: URL?
     @State private var username: String = ""
 
     var body: some View {
@@ -31,9 +29,8 @@ struct ContentView: View {
     }
 }
 
-struct FeedDetailView_Previews: PreviewProvider {
+struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView(title: "title",
-                       url: URL(string: "https://www.apple.com/")!)
+        ContentView()
     }
 }
