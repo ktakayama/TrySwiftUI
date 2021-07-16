@@ -29,39 +29,6 @@ struct FeedDetailView: View {
             .padding(16)
         }
     }
-
-
-
-
-
-
-
-
-
-
-
-
-    var body_: some View {
-        NavigationView {
-            VStack {
-                WebView(url: url!)
-            }
-            .navigationBarTitle(title)
-            .toolbar {
-                ToolbarItem(placement: .bottomBar) {
-                    Button(action: {print("tap")}, label: {
-                        Image(systemName: "arrowtriangle.backward")
-                    })
-                }
-                ToolbarItem(placement: .bottomBar) {
-                    Button(action: {print("tap")}, label: {
-                        Image(systemName: "arrowtriangle.forward")
-                    })
-                }
-            }
-        }
-
-    }
 }
 
 struct FeedDetailView_Previews: PreviewProvider {
