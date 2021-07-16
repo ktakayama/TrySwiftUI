@@ -1,14 +1,14 @@
 //
-//  MacReaderTests.swift
-//  MacReaderTests
+//  TrySwiftUITests.swift
+//  TrySwiftUITests
 //
 //  Created by Kyosuke Takayama on 2021/07/09.
 //
 
 import XCTest
-@testable import MacReader
+@testable import TrySwiftUI
 
-class MacReaderTests: XCTestCase {
+class TrySwiftUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

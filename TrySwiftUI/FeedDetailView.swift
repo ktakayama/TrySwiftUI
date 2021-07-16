@@ -1,6 +1,6 @@
 //
 //  FeedDetailView.swift
-//  MacReader
+//  TrySwiftUI
 //
 //  Created by Kyosuke Takayama on 2021/07/13.
 //

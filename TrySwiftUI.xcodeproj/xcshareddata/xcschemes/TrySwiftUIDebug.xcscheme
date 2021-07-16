@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B95DAF822697D6F300AE4E7E"
-               BuildableName = "MacReaderDebug.app"
-               BlueprintName = "MacReaderDebug"
-               ReferencedContainer = "container:MacReader.xcodeproj">
+               BuildableName = "TrySwiftUIDebug.app"
+               BlueprintName = "TrySwiftUIDebug"
+               ReferencedContainer = "container:TrySwiftUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -45,9 +45,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B95DAF822697D6F300AE4E7E"
-            BuildableName = "MacReaderDebug.app"
-            BlueprintName = "MacReaderDebug"
-            ReferencedContainer = "container:MacReader.xcodeproj">
+            BuildableName = "TrySwiftUIDebug.app"
+            BlueprintName = "TrySwiftUIDebug"
+            ReferencedContainer = "container:TrySwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -62,9 +62,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B95DAF822697D6F300AE4E7E"
-            BuildableName = "MacReaderDebug.app"
-            BlueprintName = "MacReaderDebug"
-            ReferencedContainer = "container:MacReader.xcodeproj">
+            BuildableName = "TrySwiftUIDebug.app"
+            BlueprintName = "TrySwiftUIDebug"
+            ReferencedContainer = "container:TrySwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

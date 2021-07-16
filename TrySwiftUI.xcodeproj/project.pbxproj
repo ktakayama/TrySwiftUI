@@ -31,8 +31,8 @@
 		B9D3C66F2697CDB800EAAE37 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D3C66E2697CDB800EAAE37 /* Assets.xcassets */; };
 		B9D3C6722697CDB800EAAE37 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B9D3C6712697CDB800EAAE37 /* Preview Assets.xcassets */; };
 		B9D3C6752697CDB800EAAE37 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B9D3C6732697CDB800EAAE37 /* LaunchScreen.storyboard */; };
-		B9D3C6802697CDB800EAAE37 /* MacReaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C67F2697CDB800EAAE37 /* MacReaderTests.swift */; };
-		B9D3C68B2697CDB800EAAE37 /* MacReaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C68A2697CDB800EAAE37 /* MacReaderUITests.swift */; };
+		B9D3C6802697CDB800EAAE37 /* TrySwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C67F2697CDB800EAAE37 /* TrySwiftUITests.swift */; };
+		B9D3C68B2697CDB800EAAE37 /* TrySwiftUIUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D3C68A2697CDB800EAAE37 /* TrySwiftUIUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,14 +48,14 @@
 			containerPortal = B9D3C65D2697CDB100EAAE37 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B9D3C6642697CDB100EAAE37;
-			remoteInfo = MacReader;
+			remoteInfo = TrySwiftUI;
 		};
 		B9D3C6872697CDB800EAAE37 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = B9D3C65D2697CDB100EAAE37 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = B9D3C6642697CDB100EAAE37;
-			remoteInfo = MacReader;
+			remoteInfo = TrySwiftUI;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -82,11 +82,11 @@
 		B92BA041269EDE43005B5F2E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		B92BA045269EDE44005B5F2E /* widgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = widgetExtension.entitlements; sourceTree = "<group>"; };
 		B92BA04A269EDEF2005B5F2E /* widgetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = widgetView.swift; sourceTree = "<group>"; };
-		B95DAF8F2697D6F300AE4E7E /* MacReaderDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacReaderDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B95DAF8F2697D6F300AE4E7E /* TrySwiftUIDebug.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrySwiftUIDebug.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9C1BAD4269D331900CEE0F2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		B9C1BAD7269D5B9A00CEE0F2 /* FeedListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListViewModel.swift; sourceTree = "<group>"; };
 		B9C1BADA269D5DC800CEE0F2 /* FeedDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedDetailView.swift; sourceTree = "<group>"; };
-		B9D3C6652697CDB100EAAE37 /* MacReader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacReader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D3C6652697CDB100EAAE37 /* TrySwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TrySwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		B9D3C66C2697CDB100EAAE37 /* FeedListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedListView.swift; sourceTree = "<group>"; };
@@ -94,13 +94,13 @@
 		B9D3C6712697CDB800EAAE37 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B9D3C6742697CDB800EAAE37 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B9D3C6762697CDB800EAAE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9D3C67B2697CDB800EAAE37 /* MacReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9D3C67F2697CDB800EAAE37 /* MacReaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacReaderTests.swift; sourceTree = "<group>"; };
+		B9D3C67B2697CDB800EAAE37 /* TrySwiftUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D3C67F2697CDB800EAAE37 /* TrySwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftUITests.swift; sourceTree = "<group>"; };
 		B9D3C6812697CDB800EAAE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9D3C6862697CDB800EAAE37 /* MacReaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MacReaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		B9D3C68A2697CDB800EAAE37 /* MacReaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MacReaderUITests.swift; sourceTree = "<group>"; };
+		B9D3C6862697CDB800EAAE37 /* TrySwiftUIUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftUIUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B9D3C68A2697CDB800EAAE37 /* TrySwiftUIUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftUIUITests.swift; sourceTree = "<group>"; };
 		B9D3C68C2697CDB800EAAE37 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B9D3C6982697CDE200EAAE37 /* MacReader.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MacReader.entitlements; sourceTree = "<group>"; };
+		B9D3C6982697CDE200EAAE37 /* TrySwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TrySwiftUI.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -175,9 +175,9 @@
 			isa = PBXGroup;
 			children = (
 				B92BA045269EDE44005B5F2E /* widgetExtension.entitlements */,
-				B9D3C6672697CDB100EAAE37 /* MacReader */,
-				B9D3C67E2697CDB800EAAE37 /* MacReaderTests */,
-				B9D3C6892697CDB800EAAE37 /* MacReaderUITests */,
+				B9D3C6672697CDB100EAAE37 /* TrySwiftUI */,
+				B9D3C67E2697CDB800EAAE37 /* TrySwiftUITests */,
+				B9D3C6892697CDB800EAAE37 /* TrySwiftUIUITests */,
 				B92BA03C269EDE3C005B5F2E /* widget */,
 				B9D3C6662697CDB100EAAE37 /* Products */,
 				B93419AB269BCC0700B027EE /* Frameworks */,
@@ -188,19 +188,19 @@
 		B9D3C6662697CDB100EAAE37 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				B9D3C6652697CDB100EAAE37 /* MacReader.app */,
-				B9D3C67B2697CDB800EAAE37 /* MacReaderTests.xctest */,
-				B9D3C6862697CDB800EAAE37 /* MacReaderUITests.xctest */,
-				B95DAF8F2697D6F300AE4E7E /* MacReaderDebug.app */,
+				B9D3C6652697CDB100EAAE37 /* TrySwiftUI.app */,
+				B9D3C67B2697CDB800EAAE37 /* TrySwiftUITests.xctest */,
+				B9D3C6862697CDB800EAAE37 /* TrySwiftUIUITests.xctest */,
+				B95DAF8F2697D6F300AE4E7E /* TrySwiftUIDebug.app */,
 				B92BA037269EDE3C005B5F2E /* widgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		B9D3C6672697CDB100EAAE37 /* MacReader */ = {
+		B9D3C6672697CDB100EAAE37 /* TrySwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				B9D3C6982697CDE200EAAE37 /* MacReader.entitlements */,
+				B9D3C6982697CDE200EAAE37 /* TrySwiftUI.entitlements */,
 				B9D3C6682697CDB100EAAE37 /* AppDelegate.swift */,
 				B9D3C66A2697CDB100EAAE37 /* SceneDelegate.swift */,
 				B9C1BAD7269D5B9A00CEE0F2 /* FeedListViewModel.swift */,
@@ -212,7 +212,7 @@
 				B9D3C6762697CDB800EAAE37 /* Info.plist */,
 				B9D3C6702697CDB800EAAE37 /* Preview Content */,
 			);
-			path = MacReader;
+			path = TrySwiftUI;
 			sourceTree = "<group>";
 		};
 		B9D3C6702697CDB800EAAE37 /* Preview Content */ = {
@@ -223,22 +223,22 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		B9D3C67E2697CDB800EAAE37 /* MacReaderTests */ = {
+		B9D3C67E2697CDB800EAAE37 /* TrySwiftUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B9D3C67F2697CDB800EAAE37 /* MacReaderTests.swift */,
+				B9D3C67F2697CDB800EAAE37 /* TrySwiftUITests.swift */,
 				B9D3C6812697CDB800EAAE37 /* Info.plist */,
 			);
-			path = MacReaderTests;
+			path = TrySwiftUITests;
 			sourceTree = "<group>";
 		};
-		B9D3C6892697CDB800EAAE37 /* MacReaderUITests */ = {
+		B9D3C6892697CDB800EAAE37 /* TrySwiftUIUITests */ = {
 			isa = PBXGroup;
 			children = (
-				B9D3C68A2697CDB800EAAE37 /* MacReaderUITests.swift */,
+				B9D3C68A2697CDB800EAAE37 /* TrySwiftUIUITests.swift */,
 				B9D3C68C2697CDB800EAAE37 /* Info.plist */,
 			);
-			path = MacReaderUITests;
+			path = TrySwiftUIUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -261,9 +261,9 @@
 			productReference = B92BA037269EDE3C005B5F2E /* widgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
 		};
-		B95DAF822697D6F300AE4E7E /* MacReaderDebug */ = {
+		B95DAF822697D6F300AE4E7E /* TrySwiftUIDebug */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B95DAF8C2697D6F300AE4E7E /* Build configuration list for PBXNativeTarget "MacReaderDebug" */;
+			buildConfigurationList = B95DAF8C2697D6F300AE4E7E /* Build configuration list for PBXNativeTarget "TrySwiftUIDebug" */;
 			buildPhases = (
 				B95DAF832697D6F300AE4E7E /* Sources */,
 				B95DAF872697D6F300AE4E7E /* Frameworks */,
@@ -273,14 +273,14 @@
 			);
 			dependencies = (
 			);
-			name = MacReaderDebug;
-			productName = MacReader;
-			productReference = B95DAF8F2697D6F300AE4E7E /* MacReaderDebug.app */;
+			name = TrySwiftUIDebug;
+			productName = TrySwiftUI;
+			productReference = B95DAF8F2697D6F300AE4E7E /* TrySwiftUIDebug.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9D3C6642697CDB100EAAE37 /* MacReader */ = {
+		B9D3C6642697CDB100EAAE37 /* TrySwiftUI */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9D3C68F2697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "MacReader" */;
+			buildConfigurationList = B9D3C68F2697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "TrySwiftUI" */;
 			buildPhases = (
 				B9D3C6612697CDB100EAAE37 /* Sources */,
 				B9D3C6622697CDB100EAAE37 /* Frameworks */,
@@ -292,14 +292,14 @@
 			dependencies = (
 				B92BA043269EDE43005B5F2E /* PBXTargetDependency */,
 			);
-			name = MacReader;
-			productName = MacReader;
-			productReference = B9D3C6652697CDB100EAAE37 /* MacReader.app */;
+			name = TrySwiftUI;
+			productName = TrySwiftUI;
+			productReference = B9D3C6652697CDB100EAAE37 /* TrySwiftUI.app */;
 			productType = "com.apple.product-type.application";
 		};
-		B9D3C67A2697CDB800EAAE37 /* MacReaderTests */ = {
+		B9D3C67A2697CDB800EAAE37 /* TrySwiftUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9D3C6922697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "MacReaderTests" */;
+			buildConfigurationList = B9D3C6922697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "TrySwiftUITests" */;
 			buildPhases = (
 				B9D3C6772697CDB800EAAE37 /* Sources */,
 				B9D3C6782697CDB800EAAE37 /* Frameworks */,
@@ -310,14 +310,14 @@
 			dependencies = (
 				B9D3C67D2697CDB800EAAE37 /* PBXTargetDependency */,
 			);
-			name = MacReaderTests;
-			productName = MacReaderTests;
-			productReference = B9D3C67B2697CDB800EAAE37 /* MacReaderTests.xctest */;
+			name = TrySwiftUITests;
+			productName = TrySwiftUITests;
+			productReference = B9D3C67B2697CDB800EAAE37 /* TrySwiftUITests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		B9D3C6852697CDB800EAAE37 /* MacReaderUITests */ = {
+		B9D3C6852697CDB800EAAE37 /* TrySwiftUIUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B9D3C6952697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "MacReaderUITests" */;
+			buildConfigurationList = B9D3C6952697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "TrySwiftUIUITests" */;
 			buildPhases = (
 				B9D3C6822697CDB800EAAE37 /* Sources */,
 				B9D3C6832697CDB800EAAE37 /* Frameworks */,
@@ -328,9 +328,9 @@
 			dependencies = (
 				B9D3C6882697CDB800EAAE37 /* PBXTargetDependency */,
 			);
-			name = MacReaderUITests;
-			productName = MacReaderUITests;
-			productReference = B9D3C6862697CDB800EAAE37 /* MacReaderUITests.xctest */;
+			name = TrySwiftUIUITests;
+			productName = TrySwiftUIUITests;
+			productReference = B9D3C6862697CDB800EAAE37 /* TrySwiftUIUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -358,7 +358,7 @@
 					};
 				};
 			};
-			buildConfigurationList = B9D3C6602697CDB100EAAE37 /* Build configuration list for PBXProject "MacReader" */;
+			buildConfigurationList = B9D3C6602697CDB100EAAE37 /* Build configuration list for PBXProject "TrySwiftUI" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -371,10 +371,10 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				B9D3C6642697CDB100EAAE37 /* MacReader */,
-				B95DAF822697D6F300AE4E7E /* MacReaderDebug */,
-				B9D3C67A2697CDB800EAAE37 /* MacReaderTests */,
-				B9D3C6852697CDB800EAAE37 /* MacReaderUITests */,
+				B9D3C6642697CDB100EAAE37 /* TrySwiftUI */,
+				B95DAF822697D6F300AE4E7E /* TrySwiftUIDebug */,
+				B9D3C67A2697CDB800EAAE37 /* TrySwiftUITests */,
+				B9D3C6852697CDB800EAAE37 /* TrySwiftUIUITests */,
 				B92BA036269EDE3C005B5F2E /* widgetExtension */,
 			);
 		};
@@ -465,7 +465,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D3C6802697CDB800EAAE37 /* MacReaderTests.swift in Sources */,
+				B9D3C6802697CDB800EAAE37 /* TrySwiftUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,7 +473,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B9D3C68B2697CDB800EAAE37 /* MacReaderUITests.swift in Sources */,
+				B9D3C68B2697CDB800EAAE37 /* TrySwiftUIUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,12 +487,12 @@
 		};
 		B9D3C67D2697CDB800EAAE37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9D3C6642697CDB100EAAE37 /* MacReader */;
+			target = B9D3C6642697CDB100EAAE37 /* TrySwiftUI */;
 			targetProxy = B9D3C67C2697CDB800EAAE37 /* PBXContainerItemProxy */;
 		};
 		B9D3C6882697CDB800EAAE37 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = B9D3C6642697CDB100EAAE37 /* MacReader */;
+			target = B9D3C6642697CDB100EAAE37 /* TrySwiftUI */;
 			targetProxy = B9D3C6872697CDB800EAAE37 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -529,7 +529,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReader.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUI.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -559,7 +559,7 @@
 					"@executable_path/../../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReader.widget;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUI.widget;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SUPPORTS_MACCATALYST = YES;
@@ -574,17 +574,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacReader/MacReader.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TrySwiftUI/TrySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MacReader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = X7VAV4CD49;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MacReader/Info.plist;
+				INFOPLIST_FILE = TrySwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReaderDebug;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUIDebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -597,17 +597,17 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacReader/MacReader.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TrySwiftUI/TrySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MacReader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = X7VAV4CD49;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MacReader/Info.plist;
+				INFOPLIST_FILE = TrySwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReaderDebug;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUIDebug;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -737,17 +737,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacReader/MacReader.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TrySwiftUI/TrySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MacReader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = X7VAV4CD49;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MacReader/Info.plist;
+				INFOPLIST_FILE = TrySwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReader;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -761,17 +761,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = MacReader/MacReader.entitlements;
+				CODE_SIGN_ENTITLEMENTS = TrySwiftUI/TrySwiftUI.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_ASSET_PATHS = "\"MacReader/Preview Content\"";
+				DEVELOPMENT_ASSET_PATHS = "\"TrySwiftUI/Preview Content\"";
 				DEVELOPMENT_TEAM = X7VAV4CD49;
 				ENABLE_PREVIEWS = YES;
-				INFOPLIST_FILE = MacReader/Info.plist;
+				INFOPLIST_FILE = TrySwiftUI/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReader;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SUPPORTS_MACCATALYST = YES;
 				SWIFT_VERSION = 5.0;
@@ -786,18 +786,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7VAV4CD49;
-				INFOPLIST_FILE = MacReaderTests/Info.plist;
+				INFOPLIST_FILE = TrySwiftUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacReader.app/MacReader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrySwiftUI.app/TrySwiftUI";
 			};
 			name = Debug;
 		};
@@ -808,18 +808,18 @@
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7VAV4CD49;
-				INFOPLIST_FILE = MacReaderTests/Info.plist;
+				INFOPLIST_FILE = TrySwiftUITests/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReaderTests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MacReader.app/MacReader";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TrySwiftUI.app/TrySwiftUI";
 			};
 			name = Release;
 		};
@@ -829,17 +829,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7VAV4CD49;
-				INFOPLIST_FILE = MacReaderUITests/Info.plist;
+				INFOPLIST_FILE = TrySwiftUIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReaderUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MacReader;
+				TEST_TARGET_NAME = TrySwiftUI;
 			};
 			name = Debug;
 		};
@@ -849,17 +849,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X7VAV4CD49;
-				INFOPLIST_FILE = MacReaderUITests/Info.plist;
+				INFOPLIST_FILE = TrySwiftUIUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = org.aill.MacReaderUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = org.aill.TrySwiftUIUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MacReader;
+				TEST_TARGET_NAME = TrySwiftUI;
 			};
 			name = Release;
 		};
@@ -875,7 +875,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B95DAF8C2697D6F300AE4E7E /* Build configuration list for PBXNativeTarget "MacReaderDebug" */ = {
+		B95DAF8C2697D6F300AE4E7E /* Build configuration list for PBXNativeTarget "TrySwiftUIDebug" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B95DAF8D2697D6F300AE4E7E /* Debug */,
@@ -884,7 +884,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D3C6602697CDB100EAAE37 /* Build configuration list for PBXProject "MacReader" */ = {
+		B9D3C6602697CDB100EAAE37 /* Build configuration list for PBXProject "TrySwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D3C68D2697CDB800EAAE37 /* Debug */,
@@ -893,7 +893,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D3C68F2697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "MacReader" */ = {
+		B9D3C68F2697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "TrySwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D3C6902697CDB800EAAE37 /* Debug */,
@@ -902,7 +902,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D3C6922697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "MacReaderTests" */ = {
+		B9D3C6922697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "TrySwiftUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D3C6932697CDB800EAAE37 /* Debug */,
@@ -911,7 +911,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B9D3C6952697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "MacReaderUITests" */ = {
+		B9D3C6952697CDB800EAAE37 /* Build configuration list for PBXNativeTarget "TrySwiftUIUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				B9D3C6962697CDB800EAAE37 /* Debug */,

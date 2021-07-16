@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B9D3C6642697CDB100EAAE37"
-               BuildableName = "MacReader.app"
-               BlueprintName = "MacReader"
-               ReferencedContainer = "container:MacReader.xcodeproj">
+               BuildableName = "TrySwiftUI.app"
+               BlueprintName = "TrySwiftUI"
+               ReferencedContainer = "container:TrySwiftUI.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -33,9 +33,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B9D3C67A2697CDB800EAAE37"
-               BuildableName = "MacReaderTests.xctest"
-               BlueprintName = "MacReaderTests"
-               ReferencedContainer = "container:MacReader.xcodeproj">
+               BuildableName = "TrySwiftUITests.xctest"
+               BlueprintName = "TrySwiftUITests"
+               ReferencedContainer = "container:TrySwiftUI.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -43,9 +43,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "B9D3C6852697CDB800EAAE37"
-               BuildableName = "MacReaderUITests.xctest"
-               BlueprintName = "MacReaderUITests"
-               ReferencedContainer = "container:MacReader.xcodeproj">
+               BuildableName = "TrySwiftUIUITests.xctest"
+               BlueprintName = "TrySwiftUIUITests"
+               ReferencedContainer = "container:TrySwiftUI.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -65,9 +65,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B9D3C6642697CDB100EAAE37"
-            BuildableName = "MacReader.app"
-            BlueprintName = "MacReader"
-            ReferencedContainer = "container:MacReader.xcodeproj">
+            BuildableName = "TrySwiftUI.app"
+            BlueprintName = "TrySwiftUI"
+            ReferencedContainer = "container:TrySwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </LaunchAction>
@@ -82,9 +82,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "B9D3C6642697CDB100EAAE37"
-            BuildableName = "MacReader.app"
-            BlueprintName = "MacReader"
-            ReferencedContainer = "container:MacReader.xcodeproj">
+            BuildableName = "TrySwiftUI.app"
+            BlueprintName = "TrySwiftUI"
+            ReferencedContainer = "container:TrySwiftUI.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>
