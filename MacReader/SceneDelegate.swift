@@ -7,8 +7,6 @@
 
 import UIKit
 import SwiftUI
-import Alamofire
-import AlamofireRSSParser
 
 class SceneDelegate: UIResponder, UIWindowSceneDelegate {
 
@@ -17,20 +15,6 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
     func scene(_ scene: UIScene, willConnectTo session: UISceneSession, options connectionOptions: UIScene.ConnectionOptions) {
         let viewModel = FeedListViewModel(items: [])
         let feedListView = FeedListView(viewModel: viewModel)
-
-        let url = "https://www.talkbasket.net/feed"
-
-        AF.request(url).responseRSS() { (response) -> Void in
-            if let feed: RSSFeed = response.value {
-                let items:[FeedItem] = feed.items.map { item in
-                    FeedItem(title: item.title ?? "no title",
-                             contentURL: URL(string: item.link!),
-                             imageURL: item.imagesFromContent?.first)
-
-                }
-                feedListView.viewModel.items = items
-            }
-        }
 
         // Use a UIHostingController as window root view controller.
         if let windowScene = scene as? UIWindowScene {
