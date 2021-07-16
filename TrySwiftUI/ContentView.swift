@@ -1,5 +1,5 @@
 //
-//  FeedDetailView.swift
+//  ContentView.swift
 //  TrySwiftUI
 //
 //  Created by Kyosuke Takayama on 2021/07/13.
@@ -7,7 +7,7 @@
 
 import SwiftUI
 
-struct FeedDetailView: View {
+struct ContentView: View {
     var title: String
     var url: URL?
     @State private var username: String = ""
@@ -33,7 +33,7 @@ struct FeedDetailView: View {
 
 struct FeedDetailView_Previews: PreviewProvider {
     static var previews: some View {
-        FeedDetailView(title: "title",
+        ContentView(title: "title",
                        url: URL(string: "https://www.apple.com/")!)
     }
 }
